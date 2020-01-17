@@ -1,1 +1,3 @@
 # learning-curve
+
+kinda TIL
