@@ -91,7 +91,7 @@ obj2.c = 20;
 - 반복문을 이용하여 객체의 프로퍼티를 복사하는 함수를 만들어서 사용할 수 있다.
 - recursive하게 만들어서 프로퍼티가 참조형 데이터를 가지고 있는 경우에도 `깊은 복사`가 가능하게 만들 수 있다.
 - getter, setter는 별도의 처리가 필요.
-- `JSON.stringify(), parse()`는 잘 동작하지만 **`느린`**함수로 알고 있음.
+- `JSON.stringify(), parse()`는 잘 동작하지만 `느린`함수로 알고 있음.
 
 <br>
 
@@ -100,7 +100,7 @@ obj2.c = 20;
 
 - empty와 undefined는 다르다.
 - array에서 선언되지 않고 건너 뛴 곳은 empty가 됨. array도 결국은 인덱스를 프로퍼티로 갖는 객체라고 생각하면 쉽다.
-- **typeof null**은 **`object`**다. ?! 아주 오래된 버그라 이제는 수정조차 할 수 없게 된 상황인 듯 하다.(You don't know JS의 저자 카일 심슨의 의견)
+- **typeof null**은 `object`다. ?! 아주 오래된 버그라 이제는 수정조차 할 수 없게 된 상황인 듯 하다.(You don't know JS의 저자 카일 심슨의 의견)
 
 
 
